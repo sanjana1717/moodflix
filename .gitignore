@@ -1,0 +1,36 @@
+# ---- secrets (keep the .env.example templates)
+.env
+.env.*
+!.env.example
+
+# ---- frontend (Next.js)
+node_modules/
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- backend (Python)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# ---- OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
